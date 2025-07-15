@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Eye, EyeOff, AlertCircle, UserPlus, CheckCircle, LogIn } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
 import { apiService } from '../../services/api';
-import group from './images/group.jpg';
+import group from './group.jpg';
 
 const AuthPage: React.FC = () => {
   const [tab, setTab] = useState<'login' | 'register'>('login');
