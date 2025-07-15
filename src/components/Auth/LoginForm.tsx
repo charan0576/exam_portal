@@ -260,7 +260,7 @@ const AuthPage: React.FC = () => {
         </li>
       </ul>
       <h1 className="text-xl font-bold text-red-800 mt-6 mb-3"> -- by  <a href="https://indonalandatech.com" >indonalandatech.com</a></h1>
-      <h1 className="text-xl font-bold text-red-800 mt-6 mb-3">contributer,mentor & guide --  Dr Pamidi Srinivasulu</h1>
+      <h1 className="text-xl font-bold text-red-800 mt-6 mb-3">contributer & mentor --  Dr Pamidi Srinivasulu</h1>
     </div>
 
   </div>
