@@ -261,7 +261,7 @@ const AuthPage: React.FC = () => {
         -- by <a href="https://indonalandatech.com" className="underline">indonalandatech.com</a>
       </h1>
       <h1 className="text-xl font-bold text-red-800 mt-2 mb-3">
-        contributer -- Dr Pamidi Srinivasulu
+        Contributer & Mentor -- Dr Pamidi Srinivasulu
       </h1>
     </div>
   </div>
