@@ -198,24 +198,22 @@ const AuthPage: React.FC = () => {
         </div>
       </div>
 
+      
       {/* Footer outside the card */}
       <footer className="w-full bg-white bg-opacity-90 rounded-t-lg mt-8 shadow-[0_-10px_30px_rgba(0,0,0,0.3)]">
-
-
-  <div className="max-w-6xl mx-auto px-8 py-10 flex flex-col sm:flex-row items-center justify-center gap-16">
+  <div className="max-w-6xl mx-auto px-6 py-10 flex flex-col sm:flex-row items-center justify-center gap-12 sm:gap-20 lg:gap-28">
     
     {/* Group Image */}
-    <div className="flex justify-center flex-1">
+    <div className="flex justify-center sm:justify-end w-full sm:w-1/2">
       <img
         src={group}
         alt="Development Team"
-        className="h-56 w-auto rounded-lg shadow-lg object-cover"
+        className="w-64 sm:w-72 md:w-80 lg:w-96 max-w-full h-auto rounded-lg shadow-lg object-cover"
       />
     </div>
 
     {/* Developer Info */}
-    <div className="text-center font-sans tracking-wide flex-1">
-      
+    <div className="text-center sm:text-left font-sans tracking-wide w-full sm:w-1/2">
       <h3 className="text-xl font-bold text-gray-800 mb-3">Development Team</h3>
       <ul className="text-base text-gray-700 space-y-2">
         <li>
@@ -223,17 +221,17 @@ const AuthPage: React.FC = () => {
             href="https://www.linkedin.com/in/naga-charan-21b245372/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 hover:text-blue-800 no-underline font-medium"
+            className="text-blue-600 hover:text-blue-800 font-medium"
           >
             🔹 D NAGA CHARAN (LEAD)
           </a>
         </li>
         <li>
           <a
-            href="https://www.linkedin.com/in/devendra-kota-subhash-unnamatla-6b267a258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            href="https://github.com/dev2"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 hover:text-blue-800 no-underline font-medium"
+            className="text-blue-600 hover:text-blue-800 font-medium"
           >
             🔹 U SUBHASH
           </a>
@@ -243,7 +241,7 @@ const AuthPage: React.FC = () => {
             href="https://www.linkedin.com/in/ganesh-gedam-5a0a84342?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 hover:text-blue-800 no-underline font-medium"
+            className="text-blue-600 hover:text-blue-800 font-medium"
           >
             🔹 G GANESH
           </a>
@@ -253,16 +251,19 @@ const AuthPage: React.FC = () => {
             href="https://github.com/prograto"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 hover:text-blue-800 no-underline font-medium"
+            className="text-blue-600 hover:text-blue-800 font-medium"
           >
             🔹 A CHANDRA SEKHAR
           </a>
         </li>
       </ul>
-      <h1 className="text-xl font-bold text-red-800 mt-6 mb-3"> -- by  <a href="https://indonalandatech.com" >indonalandatech.com</a></h1>
-      <h1 className="text-xl font-bold text-red-800 mt-6 mb-3">contributer & mentor --  Dr Pamidi Srinivasulu</h1>
+      <h1 className="text-xl font-bold text-red-800 mt-6 mb-3">
+        -- by <a href="https://indonalandatech.com" className="underline">indonalandatech.com</a>
+      </h1>
+      <h1 className="text-xl font-bold text-red-800 mt-2 mb-3">
+        contributer -- Dr Pamidi Srinivasulu
+      </h1>
     </div>
-
   </div>
 </footer>
 
