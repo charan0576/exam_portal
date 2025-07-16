@@ -165,7 +165,7 @@ const Results: React.FC = () => {
                     <td className="py-2 sm:py-3 px-2 sm:px-4 truncate max-w-24 sm:max-w-none">{ranking.name}</td>
                     <td className="py-2 sm:py-3 px-2 sm:px-4 hidden sm:table-cell">{ranking.regno}</td>
                     <td className="py-2 sm:py-3 px-2 sm:px-4">{ranking.testsCount}</td>
-                    <td className="py-2 sm:py-3 px-2 sm:px-4 hidden sm:table-cell">{ranking.totalScore}/{30}</td>
+                    <td className="py-2 sm:py-3 px-2 sm:px-4 hidden sm:table-cell">{ranking.totalScore}/{ranking.testsCount*30}</td>
                     <td className="py-2 sm:py-3 px-2 sm:px-4">
                       <span className={`font-medium ${getGradeColor(ranking.percentage)}`}>
                         {ranking.percentage.toFixed(1)}%
