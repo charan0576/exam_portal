@@ -206,10 +206,10 @@ const AuthPage: React.FC = () => {
     {/* Group Image */}
     <div className="flex justify-center sm:justify-end w-full sm:w-1/2">
       <img
-        src={group}
-        alt="Development Team"
-        className="w-64 sm:w-72 md:w-80 lg:w-96 max-w-full h-auto rounded-lg shadow-lg object-cover"
-      />
+  src={group}
+  alt="Development Team"
+  className="... cursor-default select-none pointer-events-none"
+  />
     </div>
 
     {/* Developer Info */}
