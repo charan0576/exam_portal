@@ -228,7 +228,7 @@ const AuthPage: React.FC = () => {
         </li>
         <li>
           <a
-            href="https://github.com/dev2"
+            href="https://www.linkedin.com/in/devendra-kota-subhash-unnamatla-6b267a258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:text-blue-800 font-medium"
